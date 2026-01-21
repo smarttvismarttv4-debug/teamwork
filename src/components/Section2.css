@@ -142,3 +142,68 @@
     color: #90A3BF;
     font-size: 14px;
 }
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 30px 40px;
+        gap: 24px;
+    }
+
+    .card-wrapper {
+        width: 45%;
+        min-width: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .card-wrapper {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .car {
+        position: static;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .card-wrapper {
+        padding: 16px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .price h4 {
+        font-size: 18px;
+    }
+
+    .button button {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .car-specs {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
