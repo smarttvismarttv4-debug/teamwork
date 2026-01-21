@@ -1,11 +1,12 @@
-
 import './App.css'
+import Section2 from './components/Section2'
 
 function App() {
 
   return (
     <>
-      <h1>Firdavs kotta bola</h1>
+      <Section2 />
+
     </>
   )
 }
