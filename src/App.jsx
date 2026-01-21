@@ -1,4 +1,4 @@
-
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -6,8 +6,11 @@ function App() {
   return (
     <>
       
-    </>
+      <Footer/>
+
+    </> 
   )
 }
 
 export default App
+ 
