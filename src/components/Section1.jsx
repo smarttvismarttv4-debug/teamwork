@@ -149,23 +149,6 @@ export default function Section1() {
                         <button>Rent Now</button>
                     </div>
                 </div>
-                <div className="card1">
-                    <div className="card_header">
-                        <h1>Nissan GT - R</h1>
-                        <IoHeartSharp  className='heart'/>
-                    </div>
-                    <p>Sport</p>
-                    <img src={car2} alt="" />
-                    <div className="inf_wrp">
-                        <img src={gas} alt="" />
-                        <img src={manual} alt="" />
-                        <img src={people} alt="" />
-                    </div>
-                    <div className="card_footer">
-                        <h1>$80.00/ <span>day</span></h1>
-                        <button>Rent Now</button>
-                    </div>
-                </div>
             </div>
         </>
     )
