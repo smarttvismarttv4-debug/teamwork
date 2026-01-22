@@ -1,0 +1,164 @@
+
+
+.Section0{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: #F6F7F9;
+    padding: 30px 0 ;
+}
+.card01{
+    width: 580px;
+    height: 360px;
+    background-color: #54A6FF;
+    background-image: url(../assets/Ellipse\ 42.png), url(../assets/Ellipse\ 41\ \(1\).png), url(../assets/Ellipse\ 40.png), url(../assets/Ellipse\ 39.png), url(../assets/Ellipse\ 38.png), url(../assets/Ellipse\ 37.png);
+    background-repeat: no-repeat;
+    background-position:left bottom,-30% bottom,-20% bottom,-10% bottom,10% bottom, 20% bottom;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.card02{
+    width: 580px;
+    height: 360px;
+    background-color: #3563E9;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.text01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-family: Plus Jakarta Sans;
+    position: relative;
+    top: 10px;
+    left: -100px;
+}
+.text01 button{
+    color: white;
+    background-color: #3563E9;
+    padding: 14px 28px ;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    left: -70px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    text-align: center;
+    vertical-align: middle;
+}
+.card01 img{
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.text02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-family: Plus Jakarta Sans;
+    position: relative;
+    top: 10px;
+    left: -100px;
+}
+.text02 button{
+    color: white;
+    background-color: #54A6FF;
+    padding: 14px 28px ;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    left: -70px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    text-align: center;
+    vertical-align: middle;
+}
+.card02 img{
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+
+@media (max-width: 768px) {
+    .Section0 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 0px;
+    }
+
+    .card01,.card02 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .text01,.text02 {
+        left: 0;
+        text-align: center;
+    }
+
+    .text01 button,.text02 button {
+        left: 0;
+    }
+
+    .card01 img, .card02 img {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
+    }
+
+    .card01 {
+        background-position:left bottom,center bottom,center bottom,center bottom,center bottom,center bottom;
+    }
+}
+
+@media (max-width: 480px) {
+    .card01{
+        width: 100%;
+        height: auto;
+        padding: 25px 15px;
+    }
+    .card02{
+        display: none;
+    }
+
+    .text01{
+        gap: 12px;
+        top: 0;
+        font-size: 14px;
+    }
+
+    .text01 button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .card01 img{
+        width: 85%;
+        top: 10px;
+    }
+
+    .card01 {
+        background-position:center bottom,center bottom,center bottom,center bottom,center bottom,center bottom;
+    }
+}
+
+
+

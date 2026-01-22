@@ -35,7 +35,7 @@ export default function Section2() {
 
             <div className="card-wrapper">
                 <div className='card'>
-                    <div>
+                    <div> 
                         <h3>New MG ZS</h3>
                         <h4>SUV</h4>
                     </div>
